@@ -1,0 +1,228 @@
+html{
+  scroll-behavior: smooth;
+}
+body
+{
+    margin:  0;
+    padding: 0;
+    font-family: 'Battambang', sans-serif;
+}
+.TextTitle
+{
+  font-size: 40px;
+  margin-top: 0%;
+  margin-right: -20%;
+  text-align: right;
+}
+.TextTitle2
+{
+  font-size: 40px;
+  font-size: auto;
+  color: white;
+  margin-top: -3%;
+  text-align: center;
+}
+.Text{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 300px;
+}
+
+.Rectangle{
+    width: 100%;
+    height: 115px;
+    background-color: rgb(0, 25, 138);
+    border-color: black;
+    border-bottom-left-radius:  50px;
+    border-bottom-right-radius: 50px;
+    position: fixed;
+    top:0px;
+    box-shadow: 0 0 5px 0 grey;
+}
+.Logo
+{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left:1%;
+    top: 5%;
+}
+.TextTitle
+{
+  text-align: center;
+  font-size: 25px;
+  color:aliceblue;
+  margin-top: 0.5%;
+}
+.List
+{
+  position:absolute;
+  right:6%;
+  font-size: 20px;
+  margin-top: 150px;
+}
+.List ul{
+  list-style: none;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+.List ul
+{
+  display: inline-table;
+  margin:0 5px;
+  position: relative;
+  margin-right:120px;
+  max-width: auto;
+}
+.List ul li a
+{
+  color:white;
+  text-decoration: none;
+  background-color: blue;
+  padding: 5px 20px;
+} 
+.List ul li:hover a
+{
+  color:rgb(255, 255, 255);
+  background-color: rgb(34, 145, 0);
+}
+
+.Sub_Menu
+{
+  display: none;
+  position: absolute;
+  margin-top: 6px;
+}
+.Sub_Menu1
+{
+  margin-top: 1%;
+}
+.Sub_Menu2
+{
+  margin-top: -5%;
+}
+.Sub_Menu3
+{
+  margin-top: -7%;
+}
+.Sub_Menu ul
+{
+  width: 140px;
+  text-align: left;
+}
+.Sub_Menu ul li
+{
+  padding:7px;
+}
+.List ul li:hover .Sub_Menu
+{
+  display: block;
+  margin-left: -33%;
+}
+.Sub_Menu ul li:hover a
+{
+  color:rgb(217, 255, 0);
+  text-decoration: underline;
+}
+.Banner
+{
+  margin-top: 40%;
+}
+.Text
+{
+  font-size: 25px;
+  color: black;
+  margin-top: 500px;
+}
+.Box {
+  background-color:white;
+  border: 1px solid green;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-left:580px;
+}
+.Box1 {
+  background-color:white;
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left:  -65%;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box2 {
+  background-color:white;
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left:8px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box3 {
+  background-color:white;
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left:300px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box4 {
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left: 0%;
+  padding: 20px;
+  width: 550px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box5 {
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left: 3%;
+  padding: 20px;
+  width: 550px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box6 {
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left: 0%;
+  padding: 20px;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box7 {
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-left: 3%;
+  padding: 20px;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.Box_of_Contect
+{
+  margin-left: 25px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #a0522d;
+  color: rgb(255, 255, 255);
+  margin-top: 500px;
+  font-size: 25px;
+}
